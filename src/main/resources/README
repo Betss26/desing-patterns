@@ -1,0 +1,18 @@
+Patrones Creacionales
+
+En este caso, nos vamos a concentrar en los patrones creacionales,
+ estos patrones buscan en cierta forma «despreocupar» al sistema de como sus objetos son creados o compuestos.
+
+Los patrones que iremos viendo y desarrollando las próximas semanas son:
+
+Abstract Factory, permite trabajar con objetos de diferentes familias de
+manera que no se mezclen entre sí. De esa manera se consigue la el tipo de familia que se esté utilizando sea transparente.
+
+Builder, abstrae el proceso de creación de los objetos complejos, centralizandolo en un punto.
+
+Factory Method, centraliza en una clase constructora la creación de objetos de un tipo determinado.
+ Ocultando al invocante la necesidad de indicar un tipo u otro.
+
+Prototype, crea un objeto a partir de la clonación de un objeto ya existente.
+
+Singleton, garantiza que solo exista una instancia de un objeto y que la forma de acceder a dicha instancia sea general.
